@@ -1,0 +1,356 @@
+{
+    "class": "go.GraphLinksModel", 
+    "copiesArrayObjects": true, 
+    "copiesArrays": true, 
+    "linkDataArray": [
+        {
+            "from": -1, 
+            "fromPort": "output_sphere", 
+            "points": [
+                218, 
+                224.6, 
+                228, 
+                224.6, 
+                228, 
+                226.6, 
+                228, 
+                226.6, 
+                326.5250015258789, 
+                226.6, 
+                336.5250015258789, 
+                226.6
+            ], 
+            "to": -5, 
+            "toPort": "input_sphere"
+        }, 
+        {
+            "from": -5, 
+            "fromPort": "output_sphere", 
+            "points": [
+                538.5250015258789, 
+                226.6, 
+                548.5250015258789, 
+                226.6, 
+                548.5250015258789, 
+                228.6, 
+                548.5250015258789, 
+                228.6, 
+                606.0500030517578, 
+                228.6, 
+                616.0500030517578, 
+                228.6
+            ], 
+            "to": -20, 
+            "toPort": "input_sphere"
+        }, 
+        {
+            "from": -20, 
+            "fromPort": "output_cube", 
+            "points": [
+                807.0500030517578, 
+                228.6, 
+                817.0500030517578, 
+                228.6, 
+                817.0500030517578, 
+                224.1, 
+                817.0500030517578, 
+                224.1, 
+                919.0500030517578, 
+                224.1, 
+                929.0500030517578, 
+                224.1
+            ], 
+            "to": -6, 
+            "toPort": "input_cube"
+        }, 
+        {
+            "from": -6, 
+            "fromPort": "output_cube", 
+            "points": [
+                1109.0500030517578, 
+                224.1, 
+                1119.0500030517578, 
+                224.1, 
+                1116, 
+                224.1, 
+                1116, 
+                224.1, 
+                1140, 
+                224.1, 
+                1140, 
+                217.6, 
+                1212.0500030517578, 
+                217.6, 
+                1222.0500030517578, 
+                217.6
+            ], 
+            "to": -10, 
+            "toPort": "input_cube"
+        }
+    ], 
+    "linkFromPortIdProperty": "fromPort", 
+    "linkToPortIdProperty": "toPort", 
+    "nodeDataArray": [
+        {
+            "canHaveInputs": false, 
+            "canHaveOutputs": false, 
+            "category": "Comment", 
+            "categoryType": "Other", 
+            "colour": " #9b3065", 
+            "fields": [
+                {
+                    "text": "Description", 
+                    "value": ""
+                }
+            ], 
+            "inputPorts": [], 
+            "isData": false, 
+            "isGroup": false, 
+            "key": -21, 
+            "loc": "0 0", 
+            "outputPorts": [], 
+            "text": "Ololo", 
+            "type": "Graph Description"
+        }, 
+        {
+            "canHaveInputs": false, 
+            "canHaveOutputs": true, 
+            "category": "Start", 
+            "categoryType": "ControlComponent", 
+            "colour": " #229954", 
+            "fields": [], 
+            "inputPorts": [], 
+            "isData": false, 
+            "isGroup": false, 
+            "key": -1, 
+            "loc": "57 194", 
+            "outputPorts": [
+                {
+                    "Id": "output_sphere", 
+                    "IdText": "sphere"
+                }
+            ], 
+            "text": "Enter label", 
+            "type": "Start"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": true, 
+            "category": "BashShellApp", 
+            "categoryType": "ApplicationDrop", 
+            "colour": " #1C2833", 
+            "fields": [
+                {
+                    "name": "execution_time", 
+                    "text": "Execution time", 
+                    "value": "5"
+                }, 
+                {
+                    "name": "num_cpus", 
+                    "text": "Num CPUs", 
+                    "value": "1"
+                }, 
+                {
+                    "name": "group_start", 
+                    "text": "Group start", 
+                    "value": "0"
+                }, 
+                {
+                    "name": "Arg01", 
+                    "text": "Arg01", 
+                    "value": "ls"
+                }, 
+                {
+                    "name": "Arg02", 
+                    "text": "Arg02", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg03", 
+                    "text": "Arg03", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg04", 
+                    "text": "Arg04", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg05", 
+                    "text": "Arg05", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg06", 
+                    "text": "Arg06", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg07", 
+                    "text": "Arg07", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg08", 
+                    "text": "Arg08", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg09", 
+                    "text": "Arg09", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg10", 
+                    "text": "Arg10", 
+                    "value": ""
+                }
+            ], 
+            "inputPorts": [
+                {
+                    "Id": "input_sphere", 
+                    "IdText": "sphere"
+                }
+            ], 
+            "isData": false, 
+            "isGroup": false, 
+            "key": -20, 
+            "loc": "616.0500030517578 198", 
+            "outputPorts": [
+                {
+                    "Id": "output_cube", 
+                    "IdText": "cube"
+                }
+            ], 
+            "text": "S2C", 
+            "type": "Shell App"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": true, 
+            "category": "file", 
+            "categoryType": "DataDrop", 
+            "colour": " #394BB2", 
+            "fields": [
+                {
+                    "name": "data_volume", 
+                    "text": "Data volume", 
+                    "value": "5"
+                }, 
+                {
+                    "name": "group_end", 
+                    "text": "Group end", 
+                    "value": "0"
+                }, 
+                {
+                    "name": "check_filepath_exists", 
+                    "text": "Check file path exists", 
+                    "value": "1"
+                }, 
+                {
+                    "name": "filepath", 
+                    "text": "File path", 
+                    "value": ""
+                }, 
+                {
+                    "name": "dirname", 
+                    "text": "Directory name", 
+                    "value": ""
+                }
+            ], 
+            "inputPorts": [
+                {
+                    "Id": "input_sphere", 
+                    "IdText": "sphere"
+                }
+            ], 
+            "isData": true, 
+            "isGroup": false, 
+            "key": -5, 
+            "loc": "336.5250015258789 196", 
+            "outputPorts": [
+                {
+                    "Id": "output_sphere", 
+                    "IdText": "sphere"
+                }
+            ], 
+            "shape": "Card", 
+            "text": "F1", 
+            "type": "File Drop"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": false, 
+            "category": "End", 
+            "categoryType": "ControlComponent", 
+            "colour": " #CB4335", 
+            "fields": [], 
+            "inputPorts": [
+                {
+                    "Id": "input_cube", 
+                    "IdText": "cube"
+                }
+            ], 
+            "isData": false, 
+            "isGroup": false, 
+            "key": -10, 
+            "loc": "1222.0500030517578 187", 
+            "outputPorts": [], 
+            "text": "Enter label", 
+            "type": "End"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": true, 
+            "category": "file", 
+            "categoryType": "DataDrop", 
+            "colour": " #394BB2", 
+            "fields": [
+                {
+                    "name": "data_volume", 
+                    "text": "Data volume", 
+                    "value": "5"
+                }, 
+                {
+                    "name": "group_end", 
+                    "text": "Group end", 
+                    "value": "0"
+                }, 
+                {
+                    "name": "check_filepath_exists", 
+                    "text": "Check file path exists", 
+                    "value": "1"
+                }, 
+                {
+                    "name": "filepath", 
+                    "text": "File path", 
+                    "value": ""
+                }, 
+                {
+                    "name": "dirname", 
+                    "text": "Directory name", 
+                    "value": ""
+                }
+            ], 
+            "inputPorts": [
+                {
+                    "Id": "input_cube", 
+                    "IdText": "cube"
+                }
+            ], 
+            "isData": true, 
+            "isGroup": false, 
+            "key": -6, 
+            "loc": "929.0500030517578 193.5", 
+            "outputPorts": [
+                {
+                    "Id": "output_cube", 
+                    "IdText": "cube"
+                }
+            ], 
+            "shape": "Card", 
+            "text": "F2", 
+            "type": "File Drop"
+        }
+    ]
+}
