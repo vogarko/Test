@@ -1,0 +1,1025 @@
+{
+    "class": "go.GraphLinksModel", 
+    "copiesArrayObjects": true, 
+    "copiesArrays": true, 
+    "modelData": {"fileType": "palette"},
+    "linkDataArray": [], 
+    "nodeDataArray": [
+        {
+            "canHaveInputs": false, 
+            "canHaveOutputs": true, 
+            "category": "Start", 
+            "categoryType": "ControlComponent", 
+            "colour": " #229954", 
+            "fields": [], 
+            "inputPorts": [], 
+            "isData": false, 
+            "isGroup": false, 
+            "key": -1, 
+            "outputPorts": [], 
+            "text": "Enter label", 
+            "type": "Start"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": false, 
+            "category": "End", 
+            "categoryType": "ControlComponent", 
+            "colour": " #CB4335", 
+            "fields": [], 
+            "inputPorts": [], 
+            "isData": false, 
+            "isGroup": false, 
+            "key": -10, 
+            "outputPorts": [], 
+            "text": "Enter label", 
+            "type": "End"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": true, 
+            "category": "Component", 
+            "categoryType": "ApplicationDrop", 
+            "colour": " #3498DB", 
+            "fields": [
+                {
+                    "name": "execution_time", 
+                    "text": "Execution time", 
+                    "value": "5"
+                }, 
+                {
+                    "name": "num_cpus", 
+                    "text": "Num CPUs", 
+                    "value": "1"
+                }, 
+                {
+                    "name": "group_start", 
+                    "text": "Group start", 
+                    "value": "0"
+                }, 
+                {
+                    "name": "appclass", 
+                    "text": "Appclass", 
+                    "value": "test.graphsRepository"
+                }, 
+                {
+                    "name": "Arg01", 
+                    "text": "Arg01", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg02", 
+                    "text": "Arg02", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg03", 
+                    "text": "Arg03", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg04", 
+                    "text": "Arg04", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg05", 
+                    "text": "Arg05", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg06", 
+                    "text": "Arg06", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg07", 
+                    "text": "Arg07", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg08", 
+                    "text": "Arg08", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg09", 
+                    "text": "Arg09", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg10", 
+                    "text": "Arg10", 
+                    "value": ""
+                }
+            ], 
+            "inputPorts": [], 
+            "isData": false, 
+            "isGroup": false, 
+            "key": -2, 
+            "outputPorts": [], 
+            "text": "Enter label", 
+            "type": "Python App"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": true, 
+            "category": "BashShellApp", 
+            "categoryType": "ApplicationDrop", 
+            "colour": " #1C2833", 
+            "fields": [
+                {
+                    "name": "execution_time", 
+                    "text": "Execution time", 
+                    "value": "5"
+                }, 
+                {
+                    "name": "num_cpus", 
+                    "text": "Num CPUs", 
+                    "value": "1"
+                }, 
+                {
+                    "name": "group_start", 
+                    "text": "Group start", 
+                    "value": "0"
+                }, 
+                {
+                    "name": "Arg01", 
+                    "text": "Arg01", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg02", 
+                    "text": "Arg02", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg03", 
+                    "text": "Arg03", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg04", 
+                    "text": "Arg04", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg05", 
+                    "text": "Arg05", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg06", 
+                    "text": "Arg06", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg07", 
+                    "text": "Arg07", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg08", 
+                    "text": "Arg08", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg09", 
+                    "text": "Arg09", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg10", 
+                    "text": "Arg10", 
+                    "value": ""
+                }
+            ], 
+            "inputPorts": [], 
+            "isData": false, 
+            "isGroup": false, 
+            "key": -3, 
+            "outputPorts": [], 
+            "text": "Enter label", 
+            "type": "Shell App"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": true, 
+            "category": "DynlibApp", 
+            "categoryType": "ApplicationDrop", 
+            "colour": " #3470AA", 
+            "fields": [
+                {
+                    "name": "execution_time", 
+                    "text": "Execution time", 
+                    "value": "5"
+                }, 
+                {
+                    "name": "num_cpus", 
+                    "text": "Num CPUs", 
+                    "value": "1"
+                }, 
+                {
+                    "name": "group_start", 
+                    "text": "Group start", 
+                    "value": "0"
+                }, 
+                {
+                    "name": "libpath", 
+                    "text": "Library path", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg01", 
+                    "text": "Arg01", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg02", 
+                    "text": "Arg02", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg03", 
+                    "text": "Arg03", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg04", 
+                    "text": "Arg04", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg05", 
+                    "text": "Arg05", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg06", 
+                    "text": "Arg06", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg07", 
+                    "text": "Arg07", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg08", 
+                    "text": "Arg08", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg09", 
+                    "text": "Arg09", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg10", 
+                    "text": "Arg10", 
+                    "value": ""
+                }
+            ], 
+            "inputPorts": [], 
+            "isData": false, 
+            "isGroup": false, 
+            "key": -13, 
+            "outputPorts": [], 
+            "text": "Enter label", 
+            "type": "Dynamic Library"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": true, 
+            "category": "mpi", 
+            "categoryType": "ApplicationDrop", 
+            "colour": " #1E90FF", 
+            "fields": [
+                {
+                    "name": "group_end", 
+                    "text": "Group end", 
+                    "value": "0"
+                }, 
+                {
+                    "name": "execution_time", 
+                    "text": "Execution time", 
+                    "value": "5"
+                }, 
+                {
+                    "name": "num_cpus", 
+                    "text": "Num CPUs", 
+                    "value": "1"
+                }, 
+                {
+                    "name": "num_of_procs", 
+                    "text": "Num procs", 
+                    "value": "4"
+                }, 
+                {
+                    "name": "Arg01", 
+                    "text": "Arg01", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg02", 
+                    "text": "Arg02", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg03", 
+                    "text": "Arg03", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg04", 
+                    "text": "Arg04", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg05", 
+                    "text": "Arg05", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg06", 
+                    "text": "Arg06", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg07", 
+                    "text": "Arg07", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg08", 
+                    "text": "Arg08", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg09", 
+                    "text": "Arg09", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg10", 
+                    "text": "Arg10", 
+                    "value": ""
+                }
+            ], 
+            "inputPorts": [], 
+            "isData": false, 
+            "isGroup": false, 
+            "key": -9, 
+            "outputPorts": [], 
+            "text": "Enter label", 
+            "type": "MPI Drop"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": true, 
+            "category": "docker", 
+            "categoryType": "ApplicationDrop", 
+            "colour": " #331c54", 
+            "fields": [
+                {
+                    "name": "execution_time", 
+                    "text": "Execution time", 
+                    "value": "5"
+                }, 
+                {
+                    "name": "num_cpus", 
+                    "text": "Num CPUs", 
+                    "value": "1"
+                }, 
+                {
+                    "name": "group_start", 
+                    "text": "Group start", 
+                    "value": "0"
+                }, 
+                {
+                    "name": "image", 
+                    "text": "Image", 
+                    "value": ""
+                }, 
+                {
+                    "name": "command", 
+                    "text": "Command", 
+                    "value": ""
+                }, 
+                {
+                    "name": "user", 
+                    "text": "User", 
+                    "value": ""
+                }, 
+                {
+                    "name": "ensureUserAndSwitch", 
+                    "text": "Ensure User And Switch", 
+                    "value": "0"
+                }, 
+                {
+                    "name": "removeContainer", 
+                    "text": "Remove Container", 
+                    "value": "1"
+                }, 
+                {
+                    "name": "additionalBindings", 
+                    "text": "Additional Bindings", 
+                    "value": ""
+                }
+            ], 
+            "inputPorts": [], 
+            "isData": false, 
+            "isGroup": false, 
+            "key": -11, 
+            "outputPorts": [], 
+            "text": "Enter label", 
+            "type": "Docker Drop"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": true, 
+            "category": "memory", 
+            "categoryType": "DataDrop", 
+            "colour": " #394BB2", 
+            "fields": [
+                {
+                    "name": "data_volume", 
+                    "text": "Data volume", 
+                    "value": "5"
+                }, 
+                {
+                    "name": "group_end", 
+                    "text": "Group end", 
+                    "value": "0"
+                }
+            ], 
+            "inputPorts": [], 
+            "isData": true, 
+            "isGroup": false, 
+            "key": -4, 
+            "outputPorts": [], 
+            "shape": "Card", 
+            "text": "Enter label", 
+            "type": "Memory Drop"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": true, 
+            "category": "file", 
+            "categoryType": "DataDrop", 
+            "colour": " #394BB2", 
+            "fields": [
+                {
+                    "name": "data_volume", 
+                    "text": "Data volume", 
+                    "value": "5"
+                }, 
+                {
+                    "name": "group_end", 
+                    "text": "Group end", 
+                    "value": "0"
+                }, 
+                {
+                    "name": "check_filepath_exists", 
+                    "text": "Check file path exists", 
+                    "value": "1"
+                }, 
+                {
+                    "name": "filepath", 
+                    "text": "File path", 
+                    "value": ""
+                }, 
+                {
+                    "name": "dirname", 
+                    "text": "Directory name", 
+                    "value": ""
+                }
+            ], 
+            "inputPorts": [], 
+            "isData": true, 
+            "isGroup": false, 
+            "key": -5, 
+            "outputPorts": [], 
+            "shape": "Card", 
+            "text": "Enter label", 
+            "type": "File Drop"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": true, 
+            "category": "s3", 
+            "categoryType": "DataDrop", 
+            "colour": " #394BB2", 
+            "fields": [
+                {
+                    "name": "data_volume", 
+                    "text": "Data volume", 
+                    "value": "5"
+                }, 
+                {
+                    "name": "group_end", 
+                    "text": "Group end", 
+                    "value": "0"
+                }
+            ], 
+            "inputPorts": [], 
+            "isData": true, 
+            "isGroup": false, 
+            "key": -6, 
+            "outputPorts": [], 
+            "shape": "Card", 
+            "text": "Enter label", 
+            "type": "S3 Drop"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": true, 
+            "category": "ngas", 
+            "categoryType": "DataDrop", 
+            "colour": " #394BB2", 
+            "fields": [
+                {
+                    "name": "data_volume", 
+                    "text": "Data volume", 
+                    "value": "5"
+                }, 
+                {
+                    "name": "group_end", 
+                    "text": "Group end", 
+                    "value": "0"
+                }
+            ], 
+            "inputPorts": [], 
+            "isData": true, 
+            "isGroup": false, 
+            "key": -7, 
+            "outputPorts": [], 
+            "shape": "Card", 
+            "text": "Enter label", 
+            "type": "NGAS Drop"
+        }, 
+        {
+            "canHaveInputs": false, 
+            "canHaveOutputs": false, 
+            "category": "Comment", 
+            "categoryType": "Other", 
+            "colour": " #799938", 
+            "fields": [], 
+            "inputPorts": [], 
+            "isData": false, 
+            "isGroup": false, 
+            "key": -12, 
+            "outputPorts": [], 
+            "shape": "File", 
+            "text": "Enter comment", 
+            "type": "Comment"
+        }, 
+        {
+            "canHaveInputs": false, 
+            "canHaveOutputs": false, 
+            "category": "SplitData", 
+            "categoryType": "GroupComponent", 
+            "colour": " #DDAD00", 
+            "fields": [
+                {
+                    "name": "num_of_copies", 
+                    "text": "Number of copies", 
+                    "value": "4"
+                }, 
+                {
+                    "name": "scatter_axis", 
+                    "text": "Scatter axis", 
+                    "value": "time"
+                }
+            ], 
+            "inputPorts": [], 
+            "isData": false, 
+            "isGroup": true, 
+            "key": -14, 
+            "outputPorts": [], 
+            "text": "Enter label", 
+            "type": "Scatter"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": false, 
+            "category": "DataGather", 
+            "categoryType": "GroupComponent", 
+            "colour": " #D35400", 
+            "fields": [
+                {
+                    "name": "num_of_inputs", 
+                    "text": "Number of inputs", 
+                    "value": "2"
+                }, 
+                {
+                    "name": "gather_axis", 
+                    "text": "Gather axis", 
+                    "value": "frequency"
+                }
+            ], 
+            "inputPorts": [], 
+            "isData": false, 
+            "isGroup": true, 
+            "key": -15, 
+            "outputPorts": [], 
+            "text": "Enter label", 
+            "type": "Gather"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": false, 
+            "category": "GroupBy", 
+            "categoryType": "GroupComponent", 
+            "colour": " #7F8C8D", 
+            "fields": [
+                {
+                    "name": "group_key", 
+                    "text": "Group key", 
+                    "value": "None"
+                }, 
+                {
+                    "name": "group_axis", 
+                    "text": "Group axis", 
+                    "value": "frequency"
+                }
+            ], 
+            "inputPorts": [], 
+            "isData": false, 
+            "isGroup": true, 
+            "key": -16, 
+            "outputPorts": [], 
+            "text": "Enter label", 
+            "type": "Group By"
+        }, 
+        {
+            "canHaveInputs": false, 
+            "canHaveOutputs": false, 
+            "category": "Loop", 
+            "categoryType": "GroupComponent", 
+            "colour": " #512E5F", 
+            "fields": [
+                {
+                    "name": "num_of_iter", 
+                    "text": "Number loops", 
+                    "value": "5"
+                }
+            ], 
+            "inputPorts": [], 
+            "isData": false, 
+            "isGroup": true, 
+            "key": -17, 
+            "outputPorts": [], 
+            "text": "Enter label", 
+            "type": "Loop"
+        }, 
+        {
+            "canHaveInputs": false, 
+            "canHaveOutputs": false, 
+            "category": "Comment", 
+            "categoryType": "Other", 
+            "colour": " #9b3065", 
+            "fields": [
+                {
+                    "text": "Description", 
+                    "value": ""
+                }
+            ], 
+            "inputPorts": [], 
+            "isData": false, 
+            "isGroup": false, 
+            "key": -21, 
+            "outputPorts": [], 
+            "text": "Enter label", 
+            "type": "Graph Description"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": true, 
+            "category": "docker", 
+            "categoryType": "ApplicationDrop", 
+            "colour": " #331c54", 
+            "fields": [
+                {
+                    "name": "execution_time", 
+                    "text": "Execution time", 
+                    "value": "5"
+                }, 
+                {
+                    "name": "num_cpus", 
+                    "text": "Num CPUs", 
+                    "value": "1"
+                }, 
+                {
+                    "name": "group_start", 
+                    "text": "Group start", 
+                    "value": "0"
+                }, 
+                {
+                    "name": "image", 
+                    "text": "Image", 
+                    "value": ""
+                }, 
+                {
+                    "name": "command", 
+                    "text": "Command", 
+                    "value": ""
+                }, 
+                {
+                    "name": "user", 
+                    "text": "User", 
+                    "value": ""
+                }, 
+                {
+                    "name": "ensureUserAndSwitch", 
+                    "text": "Ensure User And Switch", 
+                    "value": "0"
+                }, 
+                {
+                    "name": "removeContainer", 
+                    "text": "Remove Container", 
+                    "value": "1"
+                }, 
+                {
+                    "name": "additionalBindings", 
+                    "text": "Additional Bindings", 
+                    "value": ""
+                }
+            ], 
+            "inputPorts": [
+                {
+                    "Id": "input_sphere", 
+                    "IdText": "sphere"
+                }
+            ], 
+            "isData": false, 
+            "isGroup": false, 
+            "key": -18, 
+            "loc": "720.0500030517578 178", 
+            "outputPorts": [
+                {
+                    "Id": "output_cube", 
+                    "IdText": "cube"
+                }
+            ], 
+            "text": "S2C", 
+            "type": "Docker Drop"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": true, 
+            "category": "docker", 
+            "categoryType": "ApplicationDrop", 
+            "colour": " #331c54", 
+            "fields": [
+                {
+                    "name": "execution_time", 
+                    "text": "Execution time", 
+                    "value": "5"
+                }, 
+                {
+                    "name": "num_cpus", 
+                    "text": "Num CPUs", 
+                    "value": "1"
+                }, 
+                {
+                    "name": "group_start", 
+                    "text": "Group start", 
+                    "value": "0"
+                }, 
+                {
+                    "name": "image", 
+                    "text": "Image", 
+                    "value": ""
+                }, 
+                {
+                    "name": "command", 
+                    "text": "Command", 
+                    "value": ""
+                }, 
+                {
+                    "name": "user", 
+                    "text": "User", 
+                    "value": ""
+                }, 
+                {
+                    "name": "ensureUserAndSwitch", 
+                    "text": "Ensure User And Switch", 
+                    "value": "0"
+                }, 
+                {
+                    "name": "removeContainer", 
+                    "text": "Remove Container", 
+                    "value": "1"
+                }, 
+                {
+                    "name": "additionalBindings", 
+                    "text": "Additional Bindings", 
+                    "value": ""
+                }
+            ], 
+            "inputPorts": [
+                {
+                    "Id": "input_cube", 
+                    "IdText": "cube"
+                }
+            ], 
+            "isData": false, 
+            "isGroup": false, 
+            "key": -19, 
+            "loc": "825.0500030517578 161", 
+            "outputPorts": [
+                {
+                    "Id": "output_sphere", 
+                    "IdText": "sphere"
+                }
+            ], 
+            "text": "C2C", 
+            "type": "Docker Drop"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": true, 
+            "category": "BashShellApp", 
+            "categoryType": "ApplicationDrop", 
+            "colour": " #1C2833", 
+            "fields": [
+                {
+                    "name": "execution_time", 
+                    "text": "Execution time", 
+                    "value": "5"
+                }, 
+                {
+                    "name": "num_cpus", 
+                    "text": "Num CPUs", 
+                    "value": "1"
+                }, 
+                {
+                    "name": "group_start", 
+                    "text": "Group start", 
+                    "value": "0"
+                }, 
+                {
+                    "name": "Arg01", 
+                    "text": "Arg01", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg02", 
+                    "text": "Arg02", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg03", 
+                    "text": "Arg03", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg04", 
+                    "text": "Arg04", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg05", 
+                    "text": "Arg05", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg06", 
+                    "text": "Arg06", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg07", 
+                    "text": "Arg07", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg08", 
+                    "text": "Arg08", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg09", 
+                    "text": "Arg09", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg10", 
+                    "text": "Arg10", 
+                    "value": ""
+                }
+            ], 
+            "inputPorts": [
+                {
+                    "Id": "input_sphere", 
+                    "IdText": "sphere"
+                }
+            ], 
+            "isData": false, 
+            "isGroup": false, 
+            "key": -20, 
+            "loc": "521.0500030517578 216", 
+            "outputPorts": [
+                {
+                    "Id": "output_cube", 
+                    "IdText": "cube"
+                }
+            ], 
+            "text": "S2C", 
+            "type": "Shell App"
+        }, 
+        {
+            "canHaveInputs": true, 
+            "canHaveOutputs": true, 
+            "category": "BashShellApp", 
+            "categoryType": "ApplicationDrop", 
+            "colour": " #1C2833", 
+            "fields": [
+                {
+                    "name": "execution_time", 
+                    "text": "Execution time", 
+                    "value": "5"
+                }, 
+                {
+                    "name": "num_cpus", 
+                    "text": "Num CPUs", 
+                    "value": "1"
+                }, 
+                {
+                    "name": "group_start", 
+                    "text": "Group start", 
+                    "value": "0"
+                }, 
+                {
+                    "name": "Arg01", 
+                    "text": "Arg01", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg02", 
+                    "text": "Arg02", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg03", 
+                    "text": "Arg03", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg04", 
+                    "text": "Arg04", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg05", 
+                    "text": "Arg05", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg06", 
+                    "text": "Arg06", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg07", 
+                    "text": "Arg07", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg08", 
+                    "text": "Arg08", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg09", 
+                    "text": "Arg09", 
+                    "value": ""
+                }, 
+                {
+                    "name": "Arg10", 
+                    "text": "Arg10", 
+                    "value": ""
+                }
+            ], 
+            "inputPorts": [
+                {
+                    "Id": "input_cube", 
+                    "IdText": "cube"
+                }
+            ], 
+            "isData": false, 
+            "isGroup": false, 
+            "key": -22, 
+            "loc": "638.0500030517578 302", 
+            "outputPorts": [
+                {
+                    "Id": "output_sphere", 
+                    "IdText": "sphere"
+                }
+            ], 
+            "text": "C2S", 
+            "type": "Shell App"
+        }
+    ]
+}
