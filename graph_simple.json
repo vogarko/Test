@@ -1,6 +1,7 @@
 { "class": "go.GraphLinksModel",
   "copiesArrays": true,
   "copiesArrayObjects": true,
+  "fileType": "graph",
   "linkFromPortIdProperty": "fromPort",
   "linkToPortIdProperty": "toPort",
   "nodeDataArray": [ 
