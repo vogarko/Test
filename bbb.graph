@@ -1,0 +1,8 @@
+{ "class": "go.GraphLinksModel",
+  "copiesArrays": true,
+  "copiesArrayObjects": true,
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "modelData": {"fileType":"graph"},
+  "nodeDataArray": [ {"category":"Comment", "isData":false, "outputPorts":[], "text":"ololol", "colour":" #799938", "canHaveOutputs":false, "canHaveInputs":false, "categoryType":"Other", "shape":"File", "isGroup":false, "key":-12, "fields":[], "type":"Comment", "inputPorts":[], "loc":"822.0500030517578 284"} ],
+  "linkDataArray": []}
