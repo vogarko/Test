@@ -1,0 +1,11 @@
+{ "class": "go.GraphLinksModel",
+  "copiesArrays": true,
+  "copiesArrayObjects": true,
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "modelData": {"fileType":"graph"},
+  "nodeDataArray": [ 
+{"category":"Description", "isData":false, "outputPorts":[], "text":"Enter label", "colour":" #9b3065", "canHaveOutputs":false, "canHaveInputs":false, "categoryType":"Other", "isGroup":false, "key":-21, "fields":[ {"text":"Description", "value":""} ], "type":"Graph Description", "inputPorts":[], "loc":"0 0"},
+{"category":"Start", "isData":false, "outputPorts":[], "text":"Enter label", "colour":" #229954", "canHaveOutputs":true, "canHaveInputs":false, "categoryType":"ControlComponent", "isGroup":false, "key":-1, "fields":[], "type":"Start", "inputPorts":[], "loc":"162 0"}
+ ],
+  "linkDataArray": []}
