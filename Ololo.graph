@@ -1,0 +1,15 @@
+{ "class": "go.GraphLinksModel",
+  "copiesArrays": true,
+  "copiesArrayObjects": true,
+  "linkFromPortIdProperty": "fromPort",
+  "linkToPortIdProperty": "toPort",
+  "modelData": {"fileType":"graph"},
+  "nodeDataArray": [ 
+{"category":"docker", "loc":"725.0500030517578 201", "isData":false, "outputPorts":[ {"IdText":"sphere", "Id":"output_sphere"} ], "type":"Docker Drop", "colour":" #331c54", "canHaveOutputs":true, "canHaveInputs":true, "key":-18, "isGroup":false, "inputPorts":[ {"IdText":"ololo", "Id":"input_ololo"} ], "text":"TestPalette", "categoryType":"ApplicationDrop", "fields":[ {"text":"Execution time", "name":"execution_time", "value":"5"},{"text":"Num CPUs", "name":"num_cpus", "value":"1"},{"text":"Group start", "name":"group_start", "value":"0"},{"text":"Image", "name":"image", "value":""},{"text":"Command", "name":"command", "value":""},{"text":"User", "name":"user", "value":""},{"text":"Ensure User And Switch", "name":"ensureUserAndSwitch", "value":"0"},{"text":"Remove Container", "name":"removeContainer", "value":"1"},{"text":"Additional Bindings", "name":"additionalBindings", "value":""} ]},
+{"category":"Start", "isData":false, "outputPorts":[ {"Id":"694f0f70-eccd-48b1-b2db-07792617a543", "IdText":"ololo"} ], "type":"Start", "colour":" #229954", "canHaveOutputs":true, "canHaveInputs":false, "key":-1, "isGroup":false, "inputPorts":[], "text":"Enter label", "categoryType":"ControlComponent", "fields":[], "loc":"169.0500030517578 207"},
+{"type":"Memory Drop", "category":"memory", "categoryType":"DataDrop", "text":"Enter label", "shape":"Card", "colour":" #394BB2", "canHaveInputs":true, "inputPorts":[ {"Id":"f1d52a8c-4ad0-4fd7-baf8-eb897ef088f0", "IdText":"ololo"} ], "canHaveOutputs":true, "outputPorts":[ {"Id":"645155e5-9ce5-4e00-9f80-08628d8ec003", "IdText":"ololo"} ], "isGroup":false, "isData":true, "fields":[ {"text":"Data volume", "value":"5", "name":"data_volume"},{"text":"Group end", "value":"0", "name":"group_end"} ], "key":-4, "loc":"428.5500030517578 203"}
+ ],
+  "linkDataArray": [ 
+{"from":-1, "fromPort":"694f0f70-eccd-48b1-b2db-07792617a543", "to":-4, "toPort":"f1d52a8c-4ad0-4fd7-baf8-eb897ef088f0", "points":[319.0500030517578,237.6,329.0500030517578,237.6,329.0500030517578,233.6,329.0500030517578,233.6,418.5500030517578,233.6,428.5500030517578,233.6]},
+{"from":-4, "fromPort":"645155e5-9ce5-4e00-9f80-08628d8ec003", "to":-18, "toPort":"input_ololo", "points":[608.5500030517578,233.6,618.5500030517578,233.6,620,233.6,620,233.6,636,233.6,636,231.6,715.0500030517578,231.6,725.0500030517578,231.6]}
+ ]}
