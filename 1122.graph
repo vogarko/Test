@@ -4,5 +4,5 @@
   "linkFromPortIdProperty": "fromPort",
   "linkToPortIdProperty": "toPort",
   "modelData": {"fileType":"graph"},
-  "nodeDataArray": [],
+  "nodeDataArray": [ {"category":"BashShellApp", "loc":"892.0500030517578 237", "type":"Shell App", "outputPorts":[ {"IdText":"cube", "Id":"output_cube"} ], "isData":false, "fields":[ {"text":"Execution time", "name":"execution_time", "value":"5"},{"text":"Num CPUs", "name":"num_cpus", "value":"1"},{"text":"Group start", "name":"group_start", "value":"0"},{"text":"Arg01", "name":"Arg01", "value":""},{"text":"Arg02", "name":"Arg02", "value":""},{"text":"Arg03", "name":"Arg03", "value":""},{"text":"Arg04", "name":"Arg04", "value":""},{"text":"Arg05", "name":"Arg05", "value":""},{"text":"Arg06", "name":"Arg06", "value":""},{"text":"Arg07", "name":"Arg07", "value":""},{"text":"Arg08", "name":"Arg08", "value":""},{"text":"Arg09", "name":"Arg09", "value":""},{"text":"Arg10", "name":"Arg10", "value":""} ], "colour":" #1C2833", "canHaveOutputs":true, "canHaveInputs":true, "isGroup":false, "key":-18, "text":"S2C", "categoryType":"ApplicationDrop", "inputPorts":[ {"IdText":"sphere", "Id":"input_sphere"} ]} ],
   "linkDataArray": []}
