@@ -1,0 +1,7 @@
+{ "class": "go.GraphLinksModel",
+  "nodeDataArray": [ 
+{"category":"End", "type":"End", "outputPorts":[], "isData":false, "fields":[], "colour":" #CB4335", "canHaveOutputs":false, "canHaveInputs":true, "isGroup":false, "key":-10, "text":"Enter label", "categoryType":"ControlComponent", "inputPorts":[]},
+{"category":"End", "type":"End", "outputPorts":[], "isData":false, "fields":[], "colour":" #CB4335", "canHaveOutputs":false, "canHaveInputs":true, "isGroup":false, "key":-2, "text":"Enter label", "categoryType":"ControlComponent", "inputPorts":[]},
+{"category":"End", "type":"End", "outputPorts":[], "isData":false, "fields":[], "colour":" #CB4335", "canHaveOutputs":false, "canHaveInputs":true, "isGroup":false, "key":-3, "text":"Enter label", "categoryType":"ControlComponent", "inputPorts":[]}
+ ],
+  "linkDataArray": []}
