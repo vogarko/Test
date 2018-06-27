@@ -220,11 +220,71 @@
             "text": "Enter comment", 
             "type": "Comment", 
             "inputPorts": []
+        }, 
+        {
+            "category": "Description", 
+            "outputPorts": [], 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Description", 
+                    "value": ""
+                }
+            ], 
+            "colour": " #9b3065", 
+            "canHaveOutputs": false, 
+            "canHaveInputs": false, 
+            "categoryType": "Other", 
+            "isGroup": false, 
+            "key": -21, 
+            "text": "Enter label", 
+            "type": "Graph Description", 
+            "inputPorts": []
+        }, 
+        {
+            "category": "Description", 
+            "outputPorts": [], 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Description", 
+                    "value": ""
+                }
+            ], 
+            "colour": " #9b3065", 
+            "canHaveOutputs": false, 
+            "canHaveInputs": false, 
+            "categoryType": "Other", 
+            "isGroup": false, 
+            "key": -16, 
+            "text": "Enter label", 
+            "type": "Graph Description", 
+            "inputPorts": []
+        }, 
+        {
+            "category": "Description", 
+            "outputPorts": [], 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Description", 
+                    "value": ""
+                }
+            ], 
+            "colour": " #9b3065", 
+            "canHaveOutputs": false, 
+            "canHaveInputs": false, 
+            "categoryType": "Other", 
+            "isGroup": false, 
+            "key": -18, 
+            "text": "Enter label", 
+            "type": "Graph Description", 
+            "inputPorts": []
         }
     ], 
     "class": "go.GraphLinksModel", 
     "modelData": {
-        "sha": "ololo", 
+        "sha": "", 
         "fileType": "palette"
     }
 }
