@@ -222,66 +222,6 @@
             "inputPorts": []
         }, 
         {
-            "category": "Description", 
-            "type": "Graph Description", 
-            "outputPorts": [], 
-            "isData": false, 
-            "fields": [
-                {
-                    "text": "Description", 
-                    "value": ""
-                }
-            ], 
-            "colour": " #9b3065", 
-            "canHaveOutputs": false, 
-            "canHaveInputs": false, 
-            "isGroup": false, 
-            "key": -21, 
-            "text": "Enter label", 
-            "categoryType": "Other", 
-            "inputPorts": []
-        }, 
-        {
-            "category": "Description", 
-            "type": "Graph Description", 
-            "outputPorts": [], 
-            "isData": false, 
-            "fields": [
-                {
-                    "text": "Description", 
-                    "value": ""
-                }
-            ], 
-            "colour": " #9b3065", 
-            "canHaveOutputs": false, 
-            "canHaveInputs": false, 
-            "isGroup": false, 
-            "key": -16, 
-            "text": "Enter label", 
-            "categoryType": "Other", 
-            "inputPorts": []
-        }, 
-        {
-            "category": "Description", 
-            "type": "Graph Description", 
-            "outputPorts": [], 
-            "isData": false, 
-            "fields": [
-                {
-                    "text": "Description", 
-                    "value": ""
-                }
-            ], 
-            "colour": " #9b3065", 
-            "canHaveOutputs": false, 
-            "canHaveInputs": false, 
-            "isGroup": false, 
-            "key": -18, 
-            "text": "Enter label", 
-            "categoryType": "Other", 
-            "inputPorts": []
-        }, 
-        {
             "category": "Start", 
             "outputPorts": [], 
             "isData": false, 
@@ -294,26 +234,6 @@
             "key": -19, 
             "text": "Enter label", 
             "type": "Start", 
-            "inputPorts": []
-        }, 
-        {
-            "category": "Description", 
-            "outputPorts": [], 
-            "isData": false, 
-            "fields": [
-                {
-                    "text": "Description", 
-                    "value": ""
-                }
-            ], 
-            "colour": " #9b3065", 
-            "canHaveOutputs": false, 
-            "canHaveInputs": false, 
-            "categoryType": "Other", 
-            "isGroup": false, 
-            "key": -20, 
-            "text": "Enter label", 
-            "type": "Graph Description", 
             "inputPorts": []
         }, 
         {
@@ -372,7 +292,9 @@
     ], 
     "class": "go.GraphLinksModel", 
     "modelData": {
-        "sha": "d69c30794be14dc2d63619becb839ccd1951f8f9", 
-        "fileType": "palette"
+        "repo": "vogarko/Test", 
+        "sha": "", 
+        "fileType": "palette", 
+        "path": "113.palette"
     }
 }
