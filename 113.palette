@@ -206,22 +206,6 @@
             "inputPorts": []
         }, 
         {
-            "category": "Comment", 
-            "type": "Comment", 
-            "outputPorts": [], 
-            "isData": false, 
-            "fields": [], 
-            "colour": " #799938", 
-            "canHaveOutputs": false, 
-            "canHaveInputs": false, 
-            "shape": "File", 
-            "isGroup": false, 
-            "key": -15, 
-            "text": "Enter comment", 
-            "categoryType": "Other", 
-            "inputPorts": []
-        }, 
-        {
             "category": "Start", 
             "outputPorts": [], 
             "isData": false, 
@@ -295,6 +279,7 @@
         "repo": "vogarko/Test", 
         "sha": "", 
         "fileType": "palette", 
+        "filePath": "113.palette", 
         "path": "113.palette"
     }
 }
