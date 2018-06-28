@@ -180,10 +180,71 @@
             "text": "Enter label", 
             "type": "Start", 
             "inputPorts": []
+        }, 
+        {
+            "category": "GroupBy", 
+            "type": "Group By", 
+            "isData": false, 
+            "outputPorts": [], 
+            "outputLocalPorts": [], 
+            "text": "Enter label", 
+            "colour": " #7F8C8D", 
+            "canHaveOutputs": true, 
+            "canHaveInputs": true, 
+            "application": "", 
+            "inputLocalPorts": [], 
+            "isGroup": true, 
+            "key": -16, 
+            "fields": [
+                {
+                    "text": "Group key", 
+                    "name": "group_key", 
+                    "value": "None"
+                }, 
+                {
+                    "text": "Group axis", 
+                    "name": "group_axis", 
+                    "value": "frequency"
+                }
+            ], 
+            "categoryType": "GroupComponent", 
+            "inputPorts": []
+        }, 
+        {
+            "category": "GroupBy", 
+            "type": "Group By", 
+            "isData": false, 
+            "outputPorts": [], 
+            "outputLocalPorts": [], 
+            "text": "Enter label", 
+            "colour": " #7F8C8D", 
+            "canHaveOutputs": true, 
+            "canHaveInputs": true, 
+            "application": "", 
+            "inputLocalPorts": [], 
+            "isGroup": true, 
+            "key": -14, 
+            "fields": [
+                {
+                    "text": "Group key", 
+                    "name": "group_key", 
+                    "value": "None"
+                }, 
+                {
+                    "text": "Group axis", 
+                    "name": "group_axis", 
+                    "value": "frequency"
+                }
+            ], 
+            "categoryType": "GroupComponent", 
+            "inputPorts": []
         }
     ], 
     "class": "go.GraphLinksModel", 
     "modelData": {
-        "fileType": "palette"
+        "repo": "vogarko/Test", 
+        "sha": "", 
+        "fileType": "palette", 
+        "filePath": "112.palette"
     }
 }
