@@ -245,6 +245,7 @@
         "repo": "vogarko/Test", 
         "sha": "", 
         "fileType": "palette", 
+        "git_url": "", 
         "filePath": "112.palette"
     }
 }
