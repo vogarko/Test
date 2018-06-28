@@ -1,10 +1,5 @@
 {
     "linkDataArray": [], 
-    "modelData": {
-        "sha": "d69c30794be14dc2d63619becb839ccd1951f8f9", 
-        "fileType": "palette"
-    }, 
-    "class": "go.GraphLinksModel", 
     "nodeDataArray": [
         {
             "category": "End", 
@@ -285,6 +280,99 @@
             "text": "Enter label", 
             "categoryType": "Other", 
             "inputPorts": []
+        }, 
+        {
+            "category": "Start", 
+            "outputPorts": [], 
+            "isData": false, 
+            "fields": [], 
+            "colour": " #229954", 
+            "canHaveOutputs": true, 
+            "canHaveInputs": false, 
+            "categoryType": "ControlComponent", 
+            "isGroup": false, 
+            "key": -19, 
+            "text": "Enter label", 
+            "type": "Start", 
+            "inputPorts": []
+        }, 
+        {
+            "category": "Description", 
+            "outputPorts": [], 
+            "isData": false, 
+            "fields": [
+                {
+                    "text": "Description", 
+                    "value": ""
+                }
+            ], 
+            "colour": " #9b3065", 
+            "canHaveOutputs": false, 
+            "canHaveInputs": false, 
+            "categoryType": "Other", 
+            "isGroup": false, 
+            "key": -20, 
+            "text": "Enter label", 
+            "type": "Graph Description", 
+            "inputPorts": []
+        }, 
+        {
+            "category": "Loop", 
+            "type": "Loop", 
+            "isData": false, 
+            "outputPorts": [], 
+            "outputLocalPorts": [], 
+            "text": "Enter label", 
+            "colour": " #512E5F", 
+            "canHaveOutputs": true, 
+            "canHaveInputs": true, 
+            "application": "", 
+            "inputLocalPorts": [], 
+            "isGroup": true, 
+            "key": -22, 
+            "fields": [
+                {
+                    "text": "Number loops", 
+                    "name": "num_of_iter", 
+                    "value": "5"
+                }
+            ], 
+            "categoryType": "GroupComponent", 
+            "inputPorts": []
+        }, 
+        {
+            "category": "DataGather", 
+            "type": "Gather", 
+            "isData": false, 
+            "outputPorts": [], 
+            "outputLocalPorts": [], 
+            "text": "Enter label", 
+            "colour": " #D35400", 
+            "canHaveOutputs": true, 
+            "canHaveInputs": true, 
+            "application": "", 
+            "inputLocalPorts": [], 
+            "isGroup": true, 
+            "key": -23, 
+            "fields": [
+                {
+                    "text": "Number of inputs", 
+                    "name": "num_of_inputs", 
+                    "value": "2"
+                }, 
+                {
+                    "text": "Gather axis", 
+                    "name": "gather_axis", 
+                    "value": "frequency"
+                }
+            ], 
+            "categoryType": "GroupComponent", 
+            "inputPorts": []
         }
-    ]
+    ], 
+    "class": "go.GraphLinksModel", 
+    "modelData": {
+        "sha": "d69c30794be14dc2d63619becb839ccd1951f8f9", 
+        "fileType": "palette"
+    }
 }
