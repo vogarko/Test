@@ -1,7 +1,42 @@
-{ "class": "go.GraphLinksModel",
-  "nodeDataArray": [ 
-{"category":"End", "type":"End", "outputPorts":[], "isData":false, "fields":[], "colour":" #CB4335", "canHaveOutputs":false, "canHaveInputs":true, "isGroup":false, "key":-10, "text":"Enter label", "categoryType":"ControlComponent", "inputPorts":[]},
-{"category":"End", "type":"End", "outputPorts":[], "isData":false, "fields":[], "colour":" #CB4335", "canHaveOutputs":false, "canHaveInputs":true, "isGroup":false, "key":-2, "text":"Enter label", "categoryType":"ControlComponent", "inputPorts":[]},
-{"category":"End", "type":"End", "outputPorts":[], "isData":false, "fields":[], "colour":" #CB4335", "canHaveOutputs":false, "canHaveInputs":true, "isGroup":false, "key":-3, "text":"Enter label", "categoryType":"ControlComponent", "inputPorts":[]}
- ],
-  "linkDataArray": []}
+{
+    "linkDataArray": [], 
+    "nodeDataArray": [
+        {
+            "category": "SplitData", 
+            "type": "Scatter", 
+            "isData": false, 
+            "outputPorts": [], 
+            "outputLocalPorts": [], 
+            "text": "Enter label", 
+            "colour": " #DDAD00", 
+            "canHaveOutputs": true, 
+            "canHaveInputs": true, 
+            "application": "", 
+            "inputLocalPorts": [], 
+            "isGroup": true, 
+            "key": -14, 
+            "fields": [
+                {
+                    "text": "Number of copies", 
+                    "name": "num_of_copies", 
+                    "value": "4"
+                }, 
+                {
+                    "text": "Scatter axis", 
+                    "name": "scatter_axis", 
+                    "value": "time"
+                }
+            ], 
+            "categoryType": "GroupComponent", 
+            "inputPorts": []
+        }
+    ], 
+    "class": "go.GraphLinksModel", 
+    "modelData": {
+        "repo": "vogarko/Test", 
+        "sha": "", 
+        "fileType": "palette", 
+        "git_url": "", 
+        "filePath": "001.palette"
+    }
+}
